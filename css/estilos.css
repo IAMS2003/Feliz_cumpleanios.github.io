@@ -1,6 +1,5 @@
 *{
     font-family: 'Great Vibes', cursive;
-    align-items: center;
 }
 
 h1{
@@ -11,4 +10,5 @@ h1{
 p{
     text-align: justify;
     font-size: 35px;
+    color: red;
 }
