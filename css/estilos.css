@@ -2,7 +2,7 @@
     font-family: 'Great Vibes', cursive;
 }
 body {
-    overflow-y: hidden;
+    overflow-y: scroll;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +10,9 @@ body {
   }
 h1{
     font-size: 200%;
-    color: cyan;
+    color: transparent;
     margin-bottom: auto;
+    -webkit-text-stroke: 0.2px #fff;
 }
 h2{
     font-size: 150%;
@@ -23,7 +24,6 @@ p{
     margin: auto;
 }
 img{
-    display: block;
     width: 65%;
     margin: 1em auto;
 }
