@@ -1,14 +1,36 @@
 *{
     font-family: 'Great Vibes', cursive;
 }
-
+body {
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fcc9da    ;
+  }
 h1{
-    text-align: center;
-    font-size: 50px;
+    font-size: 200%;
+    color: cyan;
+    margin-bottom: auto;
+}
+h2{
+    font-size: 150%;
     color: blue;
+    margin: auto;
 }
 p{
-    text-align: justify;
-    font-size: 35px;
-    color: red;
+    font-size: 100%;
+    margin: auto;
+}
+img{
+    display: block;
+    width: 65%;
+    margin: 1em auto;
+}
+.screem-1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    background-color:#f79fbe33;
 }
