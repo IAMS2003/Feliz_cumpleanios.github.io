@@ -10,20 +10,25 @@ body {
   }
 h1{
     font-size: 200%;
-    color: transparent;
+    color: cyan;
     margin-bottom: auto;
-    -webkit-text-stroke: 0.2px #fff;
+    -webkit-text-stroke: 0.5px #fff;
 }
 h2{
     font-size: 150%;
-    color: blue;
+    color: cyan;
+    -webkit-text-stroke: 0.5px #fff;
     margin: auto;
 }
 p{
-    font-size: 100%;
+    font-size: 120%;
     margin: auto;
 }
 img{
+    width: 65%;
+    margin: 1em auto;
+}
+video{
     width: 65%;
     margin: 1em auto;
 }
